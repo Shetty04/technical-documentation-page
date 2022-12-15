@@ -1,0 +1,96 @@
+main {
+    margin-left: 20rem;
+    color: #3B7197;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 18px;
+    top: 0;
+    display: block;
+    word-spacing: 4px;
+}
+
+code {
+    background-color: #CCE8FF;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+h2 {
+    font-weight: 1200;
+}
+
+#navbar ul {
+    list-style-type: none;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #3B7197;
+    font-size: 20px;
+}
+
+#navbar header {
+    color: #3B7197;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 10px;
+    max-width:35%;
+    min-width: 20%;
+
+}
+
+#navbar {
+    width: 20%;
+    display: flex;
+    flex-wrap:wrap;
+    height: 100%;
+    padding: 0px 10px 30px 0;
+    margin-left: 0;
+    border-right: solid #3B7197;
+}
+
+#navbar li {
+    padding-top: 18px;
+    padding-bottom: 2px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+nav {
+    display: block;
+    position: fixed;
+}
+
+#main-doc {
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#main-doc li {
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+body {
+    background-image: linear-gradient(0.25turn, #AED36C, #EBF8E1, #EEB462);
+}
+
+#content a:active {
+    color: palevioletred;
+}
+
+#content ul a:hover {
+    color: #534666;
+}
+@media (max-width: 1199px) and (min-width: 769px) {
+    #navbar{
+        min-width:20%;
+
+    }
+}
+p{
+    padding-left: 20px;
+}
